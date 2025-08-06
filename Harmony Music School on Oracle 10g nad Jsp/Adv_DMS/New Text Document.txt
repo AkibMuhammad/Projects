@@ -1,0 +1,41 @@
+%@page import=java.sql. %
+
+%
+    String Name=request.getParameter(sname);
+    String Password=request.getParameter(password);
+    String Email=request.getParameter(email);
+    String Phone=request.getParameter(phone);
+    String Gender=request.getParameter(gender);
+    String Role=request.getParameter(wayuser);
+
+    out.print(Name+Password+Email+Phone+Gender+Role);
+
+    {
+        try{
+            Class.forName(oracle.jdbc.driver.OracleDriver);
+            Connection conn=DriverManager.getConnection(jdbcoraclethin@localhost1521,system,tiger);
+            PreparedStatement ps=conn.prepareStatement(INSERT into STUDENTLOGIN values(,,,,,));
+   
+        ps.setString(1,Name);
+        ps.setString(2,Password);
+        ps.setString(3,Email);
+        ps.setString(4,Phone);
+        ps.setString(5,Gender);
+        ps.setString(6,Role);
+    
+        int x=ps.executeUpdate();
+    
+        if(x!=0) {
+            response.sendRedirect(STUDENTLOGIN.jsp);
+         }
+        else{   
+            out.print(something went wrong);
+        }
+    }    
+        catch (Exception ex)
+        {  
+        out.print(email already exist);
+        }
+    }
+     
+%

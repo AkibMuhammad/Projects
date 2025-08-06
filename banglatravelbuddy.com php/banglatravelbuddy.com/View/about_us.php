@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+
+<body>
+    <center>
+        <table border="0">
+            <tr height="200px">
+                <td width="90px" align="left"> <img src="images/tour.jpg" width="300px" height="150px" alt=""> </td>
+                <td width="1050px" align="right">
+                    <h2><a href="home.php">Home </a></h2> <br>
+                    <a href="package.php"> Packages </a><br>
+                    <a href="forex.php"> Forex </a><br>
+                    <a href="about_us.php"> About </a><br>
+                    <a href="contact.php"> Contact </a><br> 
+                    <a href="login.php">Login/Sign Up</a>
+                </td>
+            </tr>
+            <tr height="200px">
+                <td colspan="2" align="center">
+                    <h1>About Us</h1> <br>
+                    This is your Bangla Travel Buddy.This site was created in the year 2022. We have been providng travel services like bus tickets, hotels and any kind of special travel packages. We are a trusted organization and are very porfessional at our work. We hope you'll enjoy our services and be with us.  <button type="button" onclick="more()"><b> ... </b></button>
+                    <div id="demo">
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    Copyright &copy; Bangla Travel Buddy 2022
+                </td>
+            </tr>
+        </table>
+        <script>
+            function more(){
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function()
+                {
+                    if(this.readyState = 4 && this.status == 200) {
+                        document.getElementById("demo").innerHTML = this.responseText;
+                        ML = this.responseText;
+
+                }
+            };
+
+            xhttp.open("GET","../Model/m.txt", true);
+            xhttp.send();
+            }
+
+        </script>
+
+
+    </center>
+</body>
+
+</html>
