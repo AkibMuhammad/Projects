@@ -1,3 +1,6 @@
+<h1>Top Genre Summary</h1>
+<p align="left"> <img src="https://github.com/AkibMuhammad/Projects/blob/main/Spotify%20Dual%20Recommender%20Systems%20based%20on%20User%20and%20Song/Top%20Genre%20Summary.jpg"/> </p>
+
 <h1>Clustered Genres</h1>
 <p align="left"> <img src="https://github.com/AkibMuhammad/Projects/blob/main/Spotify%20Dual%20Recommender%20Systems%20based%20on%20User%20and%20Song/genres_clustered.png"/> </p>
 
