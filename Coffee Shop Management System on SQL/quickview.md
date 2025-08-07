@@ -7,7 +7,7 @@
 <h1>Alteration of C Shop Table</h1>
 <p align="left"> <img src="https://github.com/AkibMuhammad/Projects/blob/main/Coffee%20Shop%20Management%20System%20on%20SQL/Altering%20C%20shop%20table.PNG"/> </p>
 
-<h1>Construction of Manager Table</h1>
+<h1>Construction of Manager & E_fn Table</h1>
 <p align="left"> <img src="https://github.com/AkibMuhammad/Projects/blob/main/Coffee%20Shop%20Management%20System%20on%20SQL/Creating%20Manager.PNG"/> </p>
 
 <h1>Query for Customer & Employee Table</h1>
