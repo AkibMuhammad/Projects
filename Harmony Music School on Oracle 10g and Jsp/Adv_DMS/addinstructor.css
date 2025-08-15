@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+
+
+}
+
+.main{
+    width:100%;
+    height:170vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0, 0, 0, 0.541)50%), url(../Images/ie.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: flex;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width:300px;
+    float:left;
+    height: 70px;
+}
+
+.logo{
+    width: 320px;
+    text-align: left;
+    color:red;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 2px;
+    margin-left: 35px;
+    padding: 8px;
+
+}
+
+.menu{
+    width: 400px;
+    float:left;
+    height: 70px;
+    
+}
+
+.menu ul{
+    float:left;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left:62px;
+    margin-top:27px;
+    font-size:19px;
+}
+.menu ul li a{
+    text-decoration:none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+span{
+    color:red;
+    font-size: 20px;
+}
+.login{
+    top: -50px;
+    left: 20px;
+    margin: 8%;
+    color: rgba(255, 255, 255, 0.651);
+    font-weight: plain;
+    font-size: 20px;
+    position: relative;
+    padding:25px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%);
+    border-radius: 15px;
+    cursor: default;
+}
+
+.login input{
+    width:240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid red;
+    border-top:	none;
+    border-right:	none;
+    border-left:	none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+.login input:focus{
+    outline:none;
+}
+.login .btn{
+    width: 240px;
+    height: 40px;
+    background: red;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    transition: 0.4s ease;
+    position: center;
+}
+
+.login .btn:hover{
+    background: rgb(255, 251, 2);
+    color: rgb(0, 0, 0);
+}
+.login td{
+    padding-left: 100px;
+}
+.login h2{
+
+    width: 220px;
+    text-align: center;
+    color:red;
+    font-size: 22px;
+    background-color:white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 2px;
+    margin-left: 350px;
+    padding: 8px;	
+    
+}
+.login .regway
+{
+    border: 1px solid transparent;
+    display: initial;
+    height: 100%;
+    position: relative;
+    font-size: 22px;
+
+}
+
+.userifPost{
+    top: -40px;
+    left: 20px;
+    font-size: 10px;
+    color: #fff;
+    position: relative;
+    padding-left:0px;
+    background-attachment: scroll;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    border-radius: 10px;
+    text-align: left;
+    color: red;
+}
+
+.userifPost h2{
+        
+    text-align: center;
+    color:red;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-right: 150px;
+    
+}
+.userifPost a{
+    text-decoration:none;
+    color: yellow;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+.userifPost a:hover{
+    color: red;
+}
+
+.radio input{
+     width:50px;
+    height: 20px;
+    background: transparent;
+    border-bottom: 1px solid red;
+    border-top:	none;
+    border-right:	none;
+    border-left:	none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
